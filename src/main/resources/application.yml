@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:postgresql://10.9.0.10:54321/acs
+      username: acs
+      password: ACs88++
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: false
